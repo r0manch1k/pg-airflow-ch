@@ -199,3 +199,5 @@ cython_debug/
 /var/log/clickhouse-server/*
 /etc/clickhouse-server/data/*
 /etc/postgresql/data/*
+
+.vscode/
