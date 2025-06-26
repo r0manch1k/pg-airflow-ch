@@ -1,0 +1,16 @@
+{
+  "postman.settings.dotenv-detection-notification-visibility": false,
+  "[dockerfile]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "ruff.configuration": "${workspaceFolder}/ruff.toml"
+}

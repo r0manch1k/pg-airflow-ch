@@ -1,0 +1,9 @@
+airflow-clickhouse-plugin==1.5.0
+Faker==37.1.0
+faker-commerce==1.0.4
+matplotlib==3.10.1
+numpy==2.2.4
+packaging==25.0
+pandas==2.2.3
+pillow==11.2.1
+scipy==1.15.2
