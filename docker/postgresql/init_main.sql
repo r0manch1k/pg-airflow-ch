@@ -16,7 +16,7 @@ CREATE TABLE users (
 CREATE TABLE addresses (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     user_id UUID NOT NULL,
-    country TEXT CHECK (country ~ '^[A-Z][a-z]+([ -][A-Z][a-z]+)*$')
+    country TEXT CHECK (country ~ '^[A-Z][a-z]+([ -][A-Z][a-z]+)*$'),
     city TEXT CHECK (city ~ '^[A-Z][a-z]+( [A-Z][a-z]+)*$'),
     street TEXT CHECK (street ~ '^[A-Z][a-z]+( [A-Z][a-z]+)*$'),
     house TEXT CHECK (house ~ '^[0-9]+[A-Z]?$'),
