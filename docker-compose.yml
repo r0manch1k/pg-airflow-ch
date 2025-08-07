@@ -63,7 +63,7 @@ services:
   clickhouse:
     container_name: labs-clickhouse
     build:
-      context: ./docker/clickhouse
+      context: ./docker/clickhouse-server
     volumes:
       - ./etc/clickhouse-server/data:/var/lib/clickhouse
       - ./etc/clickhouse-server/config.d:/etc/clickhouse-server/config.d
